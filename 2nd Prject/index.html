@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TO-DO</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1>TO-DO APP</h1>
+    <div class="sections">
+      <section class="not__started-sec">
+        <div class="not__started">
+          <h3 class="sec__header">Not Started</h3>
+
+          <ul class="not__started-elements tasks__container">
+            <!-- <li class="not__started-el to__do-el">
+              <form >
+                <input
+                  value=""
+                  placeholder="Your Task"
+                  type="text"
+                  class="not__started-input"
+                />
+                <div class="el__tools">
+                  <i
+                    class="fa fa-pencil edit__btn el__tool"
+                    aria-hidden="true"
+                  ></i>
+                  <i
+                    class="fa fa-trash remove__btn el__tool"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+              </form>
+            </li> -->
+
+            <button data-section="not__started" class="not__started-btn btn">
+              <li>&plus; ADD</li>
+            </button>
+          </ul>
+        </div>
+      </section>
+      <section class="in__progress-sec">
+        <div class="in__progress">
+          <h3 class="sec__header">In Progress</h3>
+
+          <ul class="in__progress-elements tasks__container">
+            <!-- <li class="in__progress-el to__do-el">
+              <form>
+                <input
+                  value=""
+                  placeholder="Your Task"
+                  name="to-do-element"
+                  type="text"
+                  class="in__progress-input"
+                />
+                <div class="el__tools">
+                  <i
+                    class="fa fa-pencil edit__btn el__tool"
+                    aria-hidden="true"
+                  ></i>
+                  <i
+                    class="fa fa-trash remove__btn el__tool"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+              </form>
+            </li> -->
+
+            <button data-section="in__progress" class="in__progress-btn btn">
+              <li>&plus; ADD</li>
+            </button>
+          </ul>
+        </div>
+      </section>
+      <section class="completed-sec">
+        <div class="completed">
+          <h3 class="sec__header">Completed</h3>
+
+          <ul class="completed-elements tasks__container">
+            <!-- <li class="completed-el to__do-el" draggable="true">
+              <form>
+                <input
+                  value=""
+                  placeholder="Your Task"
+                  name="to-do-element"
+                  type="text"
+                  class="completed-input"
+                />
+                <div class="el__tools">
+                  <i
+                    class="fa fa-pencil edit__btn el__tool"
+                    aria-hidden="true"
+                  ></i>
+                  <i
+                    class="fa fa-trash remove__btn el__tool"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+              </form>
+            </li> -->
+
+            <button data-section="completed" class="completed-btn btn">
+              <li>&plus; ADD</li>
+            </button>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">&copy; Copyright by Ahmed Al-Sawah</footer>
+  </body>
+</html>
